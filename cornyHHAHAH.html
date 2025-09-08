@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>para sau crush</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #joke {
+            display: block;
+        }
+        #punchline {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="joke">
+        <h1>para sau crush 🥺</h1>
+        <p>kung feelings mo may kulang sayo magisip ka nga ulit</p>
+        <button onclick="deployPunchline()">tapusin yung joke</button>
+    </div>
+    <div id="punchline">
+        <h1>baka ako na pala hinahanap mo 😍😎🥰😘🤗♥♥♥♥</h1>
+    </div>
+
+    <script>
+        function deployPunchline() {
+            document.getElementById("punchline").style.display = 'block';
+            document.getElementById("joke").style.display = 'none';
+        }
+    </script>
+</body>
+</html>
